@@ -1,13 +1,5 @@
 [
   {
-    "id": "dubhorn",
-    "file": "media/414208__jacksonacademyashmore__airhorn.wav"
-  },
-  {
-    "id": "perc",
-    "file": "media/perc.wav"
-  },
-  {
     "id": "piano",
     "file": "media/piano.wav"
   },
@@ -18,5 +10,9 @@
   {
     "id": "bateria",
     "file": "media/bateria.wav"
+  },
+  {
+    "id": "perc",
+    "file": "media/perc.wav"
   }
 ]

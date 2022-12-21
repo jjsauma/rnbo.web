@@ -81,7 +81,7 @@
 						}
 ,
 						"classnamespace" : "rnbo",
-						"rect" : [ 626.0, 129.0, 790.0, 669.0 ],
+						"rect" : [ 34.0, 135.0, 915.0, 669.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -112,12 +112,31 @@
 						"title" : "untitled",
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-50",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 629.824555397033691, 102.592105865478516, 46.0, 23.0 ],
+									"rnbo_classname" : "change",
+									"rnbo_extra_attributes" : 									{
+										"mode" : "default"
+									}
+,
+									"rnbo_serial" : 2,
+									"rnbo_uniqueid" : "change_obj-50",
+									"text" : "change"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-37",
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 126.087719917297363, 296.491225242614746, 52.0, 23.0 ],
+									"patching_rect" : [ 629.824555397033691, 133.293859958648682, 52.0, 23.0 ],
 									"rnbo_classname" : "select",
 									"rnbo_serial" : 2,
 									"rnbo_uniqueid" : "select_obj-37",
@@ -200,7 +219,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 126.087719917297363, 265.714910984039307, 111.0, 23.0 ],
+									"patching_rect" : [ 629.596487045288086, 72.328948020935059, 111.0, 23.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"displayorder" : "-",
@@ -624,11 +643,11 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 126.087719917297363, 361.403505325317383, 40.0, 23.0 ],
+									"patching_rect" : [ 629.824555397033691, 194.33333158493042, 40.0, 23.0 ],
 									"rnbo_classname" : "*~",
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 9,
 									"rnbo_uniqueid" : "*~_obj-32",
-									"text" : "*~ 0.3"
+									"text" : "*~ 0.4"
 								}
 
 							}
@@ -639,7 +658,7 @@
 									"numinlets" : 3,
 									"numoutlets" : 2,
 									"outlettype" : [ "signal", "signal" ],
-									"patching_rect" : [ 126.087719917297363, 327.995612144470215, 146.0, 23.0 ],
+									"patching_rect" : [ 629.824555397033691, 162.679824352264404, 146.0, 23.0 ],
 									"rnbo_classname" : "groove~",
 									"rnbo_extra_attributes" : 									{
 										"syncmode" : "phase",
@@ -861,12 +880,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-27",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 239.824559211730957, 513.543856620788574, 223.175440788269043, 52.0 ],
+									"patching_rect" : [ 318.771926879882812, 360.280702590942383, 223.0, 37.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
 										"type" : "",
@@ -874,7 +893,7 @@
 										"samplerate" : 0.0
 									}
 ,
-									"rnbo_serial" : 14,
+									"rnbo_serial" : 15,
 									"rnbo_uniqueid" : "buffer~_obj-27",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -1155,7 +1174,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "buffer~ dubhorn @file 414208__jacksonacademyashmore__airhorn.wav @channels 1"
+									"text" : "buffer~ dubhorn @file airhorn.wav @channels 1"
 								}
 
 							}
@@ -1177,12 +1196,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-26",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 515.666663885116577, 112.241228580474854, 67.35087776184082, 52.0 ],
+									"patching_rect" : [ 515.666663885116577, 112.241228580474854, 87.245614528656006, 37.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"displayorder" : "-",
@@ -1194,7 +1213,6 @@
 										"displayname" : "",
 										"steps" : 0.0,
 										"enum" : "",
-										"value" : 0.0,
 										"ctlin" : 0.0,
 										"meta" : "",
 										"unit" : "",
@@ -1203,7 +1221,7 @@
 										"maximum" : 1.0
 									}
 ,
-									"rnbo_serial" : 8,
+									"rnbo_serial" : 14,
 									"rnbo_uniqueid" : "vol.perc",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -1594,7 +1612,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param @name vol.perc",
+									"text" : "param vol.perc @value 0.",
 									"varname" : "vol.perc"
 								}
 
@@ -1617,12 +1635,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-24",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 379.701752901077271, 112.241228580474854, 67.333333969116211, 52.0 ],
+									"patching_rect" : [ 379.701752901077271, 112.241228580474854, 97.631579399108887, 37.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"displayorder" : "-",
@@ -1634,7 +1652,6 @@
 										"displayname" : "",
 										"steps" : 0.0,
 										"enum" : "",
-										"value" : 0.0,
 										"ctlin" : 0.0,
 										"meta" : "",
 										"unit" : "",
@@ -1643,7 +1660,7 @@
 										"maximum" : 1.0
 									}
 ,
-									"rnbo_serial" : 6,
+									"rnbo_serial" : 13,
 									"rnbo_uniqueid" : "vol.piano",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -2034,7 +2051,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param @name vol.piano",
+									"text" : "param vol.piano @value 0.",
 									"varname" : "vol.piano"
 								}
 
@@ -2057,12 +2074,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-21",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 252.508771657943726, 112.241228580474854, 69.982456684112549, 52.0 ],
+									"patching_rect" : [ 252.508771657943726, 112.241228580474854, 94.263158321380615, 37.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"displayorder" : "-",
@@ -2074,7 +2091,6 @@
 										"displayname" : "",
 										"steps" : 0.0,
 										"enum" : "",
-										"value" : 0.0,
 										"ctlin" : 0.0,
 										"meta" : "",
 										"unit" : "",
@@ -2083,7 +2099,7 @@
 										"maximum" : 1.0
 									}
 ,
-									"rnbo_serial" : 4,
+									"rnbo_serial" : 12,
 									"rnbo_uniqueid" : "vol.bajo",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -2474,7 +2490,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param @name vol.bajo",
+									"text" : "param vol.bajo @value 0.",
 									"varname" : "vol.bajo"
 								}
 
@@ -2728,7 +2744,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 239.824559211730957, 450.789473056793213, 223.0, 52.0 ],
+									"patching_rect" : [ 318.771926879882812, 297.280702590942383, 223.0, 52.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
 										"type" : "",
@@ -3255,7 +3271,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 10.0, 576.789473056793213, 223.0, 52.0 ],
+									"patching_rect" : [ 88.947367668151855, 423.280702590942383, 223.0, 52.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
 										"type" : "",
@@ -3782,7 +3798,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 10.0, 513.789473056793213, 223.0, 52.0 ],
+									"patching_rect" : [ 88.947367668151855, 360.280702590942383, 223.0, 52.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
 										"type" : "",
@@ -4098,7 +4114,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 10.0, 450.789473056793213, 221.0, 52.0 ],
+									"patching_rect" : [ 88.947367668151855, 297.280702590942383, 221.0, 52.0 ],
 									"rnbo_classname" : "buffer~",
 									"rnbo_extra_attributes" : 									{
 										"type" : "",
@@ -4394,12 +4410,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-13",
-									"linecount" : 3,
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 112.09649133682251, 112.241228580474854, 82.228070735931396, 52.0 ],
+									"patching_rect" : [ 112.09649133682251, 112.241228580474854, 108.263158321380615, 37.0 ],
 									"rnbo_classname" : "param",
 									"rnbo_extra_attributes" : 									{
 										"displayorder" : "-",
@@ -4411,7 +4427,6 @@
 										"displayname" : "",
 										"steps" : 0.0,
 										"enum" : "",
-										"value" : 0.0,
 										"ctlin" : 0.0,
 										"meta" : "",
 										"unit" : "",
@@ -4420,7 +4435,7 @@
 										"maximum" : 1.0
 									}
 ,
-									"rnbo_serial" : 2,
+									"rnbo_serial" : 11,
 									"rnbo_uniqueid" : "vol.bateria",
 									"rnboinfo" : 									{
 										"needsInstanceInfo" : 1,
@@ -4811,7 +4826,7 @@
 										"changesPatcherIO" : 0
 									}
 ,
-									"text" : "param @name vol.bateria",
+									"text" : "param vol.bateria @value 0.",
 									"varname" : "vol.bateria"
 								}
 
@@ -4822,7 +4837,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 89.122807025909424, 399.719297409057617, 43.0, 23.0 ],
+									"patching_rect" : [ 89.122807025909424, 257.614035606384277, 43.0, 23.0 ],
 									"rnbo_classname" : "out~",
 									"rnbo_extra_attributes" : 									{
 										"comment" : "",
@@ -5170,6 +5185,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
+									"midpoints" : [ 98.622807025909424, 207.0, 98.622807025909424, 207.0 ],
 									"source" : [ "obj-20", 0 ]
 								}
 
@@ -5184,7 +5200,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"midpoints" : [ 243.359647750854492, 233.643066808581352, 98.622807025909424, 233.643066808581352 ],
+									"midpoints" : [ 243.359647750854492, 243.0, 98.622807025909424, 243.0 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -5192,7 +5208,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"midpoints" : [ 370.552628993988037, 233.37877881526947, 98.622807025909424, 233.37877881526947 ],
+									"midpoints" : [ 370.552628993988037, 243.0, 98.622807025909424, 243.0 ],
 									"source" : [ "obj-23", 0 ]
 								}
 
@@ -5207,7 +5223,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
-									"midpoints" : [ 506.622807025909424, 233.875000476837158, 98.622807025909424, 233.875000476837158 ],
+									"midpoints" : [ 506.622807025909424, 243.0, 98.622807025909424, 243.0 ],
 									"source" : [ "obj-25", 0 ]
 								}
 
@@ -5237,13 +5253,14 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-4", 0 ],
+									"midpoints" : [ 639.324555397033691, 243.0, 98.622807025909424, 243.0 ],
 									"source" : [ "obj-32", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-37", 0 ],
+									"destination" : [ "obj-50", 0 ],
 									"source" : [ "obj-33", 0 ]
 								}
 
@@ -5252,6 +5269,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
 									"source" : [ "obj-37", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-37", 0 ],
+									"source" : [ "obj-50", 0 ]
 								}
 
 							}
@@ -5303,7 +5327,8 @@
 						"export_config" : 						{
 							"web-export" : 							{
 								"json-web-export" : 								{
-									"copy_dependencies" : 1
+									"copy_dependencies" : 1,
+									"classname" : "rnbomatic"
 								}
 
 							}
@@ -5314,18 +5339,6 @@
 ,
 					"patching_rect" : [ 40.0, 208.0, 43.0, 22.0 ],
 					"rnboattrcache" : 					{
-						"vol.bateria" : 						{
-							"label" : "vol.bateria",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
-						"vol.bajo" : 						{
-							"label" : "vol.bajo",
-							"isEnum" : 0,
-							"parsestring" : ""
-						}
-,
 						"vol.piano" : 						{
 							"label" : "vol.piano",
 							"isEnum" : 0,
@@ -5340,6 +5353,18 @@
 ,
 						"horn" : 						{
 							"label" : "horn",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"vol.bateria" : 						{
+							"label" : "vol.bateria",
+							"isEnum" : 0,
+							"parsestring" : ""
+						}
+,
+						"vol.bajo" : 						{
+							"label" : "vol.bajo",
 							"isEnum" : 0,
 							"parsestring" : ""
 						}
@@ -5373,24 +5398,24 @@
 						"subtype" : "Undefined",
 						"embed" : 1,
 						"snapshot" : 						{
-							"vol.perc" : 							{
-								"value" : 1.0
-							}
-,
 							"horn" : 							{
 								"value" : 0.0
 							}
 ,
 							"vol.bajo" : 							{
-								"value" : 1.0
+								"value" : 0.0
+							}
+,
+							"vol.perc" : 							{
+								"value" : 0.0
 							}
 ,
 							"vol.piano" : 							{
-								"value" : 1.0
+								"value" : 0.0
 							}
 ,
 							"vol.bateria" : 							{
-								"value" : 1.0
+								"value" : 0.0
 							}
 ,
 							"__presetid" : "d7104113-7f01-11ed-8113-acde48001122"
@@ -5408,24 +5433,24 @@
 									"subtype" : "",
 									"embed" : 0,
 									"snapshot" : 									{
-										"vol.perc" : 										{
-											"value" : 1.0
-										}
-,
 										"horn" : 										{
 											"value" : 0.0
 										}
 ,
 										"vol.bajo" : 										{
-											"value" : 1.0
+											"value" : 0.0
+										}
+,
+										"vol.perc" : 										{
+											"value" : 0.0
 										}
 ,
 										"vol.piano" : 										{
-											"value" : 1.0
+											"value" : 0.0
 										}
 ,
 										"vol.bateria" : 										{
-											"value" : 1.0
+											"value" : 0.0
 										}
 ,
 										"__presetid" : "d7104113-7f01-11ed-8113-acde48001122"
@@ -5511,7 +5536,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 293.0, 208.0, 150.0, 22.0 ]
+					"patching_rect" : [ 140.0, 217.0, 150.0, 22.0 ]
 				}
 
 			}
@@ -5583,9 +5608,9 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "414208__jacksonacademyashmore__airhorn.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../Downloads",
+				"name" : "airhorn.wav",
+				"bootpath" : "~/Documents/GitHub/rnbo.web/source",
+				"patcherrelativepath" : ".",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
