@@ -25,7 +25,7 @@
         "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
-        "serialId": "param_s11",
+        "serialId": "param_s05",
         "constrainFunc": "param_01_value_constrain"
       },
       {
@@ -52,7 +52,7 @@
         "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
-        "serialId": "param_s12",
+        "serialId": "param_s04",
         "constrainFunc": "param_02_value_constrain"
       },
       {
@@ -79,7 +79,7 @@
         "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
-        "serialId": "param_s13",
+        "serialId": "param_s03",
         "constrainFunc": "param_03_value_constrain"
       },
       {
@@ -106,7 +106,7 @@
         "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
-        "serialId": "param_s14",
+        "serialId": "param_s02",
         "constrainFunc": "param_04_value_constrain"
       },
       {
@@ -133,7 +133,7 @@
         "visible": true,
         "signalIndex": null,
         "ioType": "IOTypeUndefined",
-        "serialId": "param_s10",
+        "serialId": "param_s01",
         "constrainFunc": "param_05_value_constrain"
       }
     ],
