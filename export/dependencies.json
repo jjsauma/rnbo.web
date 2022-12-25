@@ -12,6 +12,10 @@
     "file": "media/bateria.wav"
   },
   {
+    "id": "horns",
+    "file": "media/horns.wav"
+  },
+  {
     "id": "dubhorn",
     "file": "media/airhorn.wav"
   },
