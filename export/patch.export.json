@@ -190,7 +190,7 @@
     "presetid": "rnbo",
     "meta": {
       "architecture": "x64",
-      "filename": "WebLoopPlayer.maxpat",
+      "filename": "LoopPlayer.maxpat",
       "maxversion": "8.5.2",
       "rnboversion": "1.0.2"
     }
