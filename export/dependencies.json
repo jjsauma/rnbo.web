@@ -1,0 +1,22 @@
+[
+  {
+    "id": "piano",
+    "file": "media/piano.wav"
+  },
+  {
+    "id": "bajo",
+    "file": "media/bajo.wav"
+  },
+  {
+    "id": "bateria",
+    "file": "media/bateria.wav"
+  },
+  {
+    "id": "dubhorn",
+    "file": "media/airhorn.wav"
+  },
+  {
+    "id": "perc",
+    "file": "media/perc.wav"
+  }
+]
