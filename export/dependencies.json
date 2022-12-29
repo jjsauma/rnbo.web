@@ -16,6 +16,10 @@
     "file": "media/horns.wav"
   },
   {
+    "id": "dubhorn",
+    "file": "media/airhorn.wav"
+  },
+  {
     "id": "perc",
     "file": "media/perc.wav"
   }
