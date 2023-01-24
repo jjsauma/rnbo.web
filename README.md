@@ -1,6 +1,6 @@
-You can see this project live at https://jjsauma.github.io/rnbo.web/(https://jjsauma.github.io/rnbo.web/)
+You can see this project live at https://jjsauma.github.io/rnbo.web/
 
-This example shows you how to add dynamic audio to a webpage, using the JavaScript source code export feature of RNBO, part of [Max 8](https://cycling74.com/products/max) made by [Cycling '74](https://cycling74.com).
+I made this project using the JavaScript source code export feature of RNBO, part of [Max 8](https://cycling74.com/products/max) made by [Cycling '74](https://cycling74.com).
 
 This repository uses [Node](https://nodejs.org/en/) to launch a simple web server to make your webpage available locally. For more on why this is necessary, see [Why a local server?](#why-a-local-server)
 
