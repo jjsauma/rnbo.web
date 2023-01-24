@@ -1,4 +1,4 @@
-# RNBO Webpage Example
+You can see this project live at https://jjsauma.github.io/rnbo.web/(https://jjsauma.github.io/rnbo.web/)
 
 This example shows you how to add dynamic audio to a webpage, using the JavaScript source code export feature of RNBO, part of [Max 8](https://cycling74.com/products/max) made by [Cycling '74](https://cycling74.com).
 
